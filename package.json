@@ -1,0 +1,22 @@
+{
+	"name": "pyramid-db",
+	"version": "0.0.0",
+	"description": "An experimental database on top of Node.js / LevelUp for performing incremental, pyramidal aggregations.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jmar777/pyramid-db.git"
+	},
+	"author": "Jeremy Martin <jmar777@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/jmar777/pyramid-db/issues"
+	},
+	"dependencies": {
+		"levelup": "~0.17.0",
+		"leveldown": "~0.9.2"
+	}
+}
